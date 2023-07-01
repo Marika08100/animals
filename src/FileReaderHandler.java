@@ -18,5 +18,7 @@ public class FileReaderHandler {
             System.out.println("The file is not found!");
         }
         return strings;
+
+
     }
 }
