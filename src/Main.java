@@ -4,8 +4,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<String> list = FileReaderHandler.fileReader("res/vegyes.txt");
-        List<Dog> dogs = new ArrayList<>();
-        List<Chicken> chickens = new ArrayList<>();
         List<Animal> animals = new ArrayList<>();
         for (String line : list) {
             String[] parts = line.split(",");
